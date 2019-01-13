@@ -24,6 +24,10 @@ it('subtract(a, b) subtracts b from a and returns the result', function() {
   expect(subtract(a, b)).toEqual(a - b)
 })
 
+function multiply(a,b){
+  number = a * b;
+  return number
+}
 
 
 it('multiply(a, b) multiplies two numbers and returns the result', function() {
