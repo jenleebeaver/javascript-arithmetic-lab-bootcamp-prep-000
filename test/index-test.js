@@ -81,7 +81,7 @@ describe('makeInt(n)', function() {
 })
 
 function preserveDecimal(a) {
-  number = parseFloat('2.222', 10);
+  number = parseFloat(a, 10);
   return number;
 }
 
