@@ -26,13 +26,17 @@ it('subtract(a, b) subtracts b from a and returns the result', function() {
 
 function multiply(a,b){
   number = a * b;
-  return number
+  return number;
 }
-
 
 it('multiply(a, b) multiplies two numbers and returns the result', function() {
   expect(multiply(a, b)).toEqual(a * b)
 })
+
+function divide(a,b){
+  number = a/b;
+  return number;
+}
 
 it('divide(a, b) divides a by b and returns the result', function() {
   expect(divide(a, b)).toEqual(a / b)
