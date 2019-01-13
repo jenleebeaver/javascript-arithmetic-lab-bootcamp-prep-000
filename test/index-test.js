@@ -51,6 +51,11 @@ it('inc(n) increments n and returns the result', function() {
   expect(inc(a)).toEqual(a + 1)
 })
 
+function dec(a){
+  number = a-1;
+  return number;
+}
+
 it('dec(n) decrements n and returns the result', function() {
   expect(dec(a)).toEqual(a - 1)
 })
