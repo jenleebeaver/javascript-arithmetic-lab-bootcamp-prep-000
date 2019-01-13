@@ -1,5 +1,11 @@
 var a, b
 
+var number;
+function add(a,b) {
+  number = a + b;
+  return number;
+}
+
 beforeEach(function() {
   a = Math.floor(Math.random() * 1000)
   b = Math.floor(Math.random() * 1000)
