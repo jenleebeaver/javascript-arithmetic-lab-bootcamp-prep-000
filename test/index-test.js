@@ -43,7 +43,7 @@ it('divide(a, b) divides a by b and returns the result', function() {
 })
 
 function inc(a){
-  number = a + 1
+  number = a + 1;
   return number;
 }
 
@@ -59,6 +59,12 @@ function dec(a){
 it('dec(n) decrements n and returns the result', function() {
   expect(dec(a)).toEqual(a - 1)
 })
+
+function makeInt(a) {
+  number = parseInt(a, 10);
+  return number;
+}
+
 
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
